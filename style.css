@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    margin: 2rem;
+}
+.heading{
+    font-size: 3rem;
+}
+.sub-heading{
+    font-size: 1.5rem;
+}
+#username{
+    padding: 14px;
+    width: 25vw;
+    font-size: 1.2rem;
+}
+.name{
+    padding: 1.2vh;
+    margin-bottom: 0.8rem;
+    text-align: center;
+}
+.uname{
+    font-size: 2rem;
+    font-size: bold;
+    /* text-shadow: 4px 4px 2px rgba(218,118,39,0.69); */
+    text-decoration: underline;
+    color: rgb(172, 172, 172);
+}
+.vprofile{
+    margin-block: 1.7rem;
+    margin-inline: auto;
+    display: block;
+    padding: 0.5rem 3.7rem;
+    font-size:1.4rem;
+}
+.ubadge{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    margin-block: 6px;
+}
+.list-group{
+    list-style-type: none;
+}
+.page-header{
+    text-shadow: 4px 4px 2px rgba(39,218,83,0.69);
+    font-size: 2.3rem;
+    color: rgb(202, 19, 19);
+}
+body{
+    background: rgb(215,215,215);
+    background: linear-gradient(90deg, rgba(215,215,215,1) 10%, rgba(122,121,139,1) 100%);
+    
+}
